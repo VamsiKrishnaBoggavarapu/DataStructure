@@ -1,7 +1,7 @@
 /* LAST IN FIRST OUT */
 
-/*  NODE3 <- NODE2 <- NODE1   => Push */
-/*  NODE2 <- NODE1  => Pop */
+/*  NODE3 <- NODE2 <- NODE1   => Push =>  BIG O -> O(1) */
+/*  NODE2 <- NODE1  => Pop => BIG O -> O(1) */
 
 class Node {
   constructor(value) {

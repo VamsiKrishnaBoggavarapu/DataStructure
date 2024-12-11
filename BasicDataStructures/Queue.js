@@ -1,8 +1,8 @@
 /* FIRST IN FIRST OUT */
 
-/* NODE1 -> NODE2 -> NODE3  => Enqueue */
+/* NODE1 -> NODE2 -> NODE3  => Enqueue => BIG O -> O(1)*/
 
-/* NODE2 -> NODE3  => Dequeue */
+/* NODE2 -> NODE3  => Dequeue => BIG O -> O(1) */
 
 class Node {
   constructor(value) {
